@@ -223,3 +223,58 @@ FROM Customers
 SELECT	  Phone
 		, CONCAT(REPLICATE('x', LEN(Phone)-3), SUBSTRING(Phone, LEN(Phone)-2, 3))
 FROM Customers
+
+
+
+-- ********************** CHARINDEX **********************************
+-- an welcher Stelle befindet sich ein gesuchtes Zeichen?
+
+SELECT CHARINDEX('a', 'Hallo') -- 2
+
+-- NICHT casesensitive
+SELECT CHARINDEX('A', 'Hallo') -- 2
+
+SELECT CHARINDEX('a', 'Leo') -- 0
+
+SELECT CHARINDEX('$', '450$') -- 4
+
+SELECT CHARINDEX('schnecke', 'Zuckerschnecke') -- 7
+
+-- Zahlen gehen nicht, auﬂer, wenn nicht als numerischer Datentyp
+SELECT CHARINDEX(3, 12345) -- Argument data type int is invalid for argument 1 of charindex function.
+SELECT CHARINDEX('3', '12345') -- 3
+
+
+SELECT CHARINDEX(' ', 'James Bond') -- 6
+
+-- CHARINDEX gibt mir die ERSTE Stelle an, an der das gesuchte Zeichen gefunden wird
+SELECT CHARINDEX(' ', 'Wolfgang Amadeus Mozart') -- 9
+
+
+-- Aufgabe: Wie bekomme ich das letzte Leerzeichen?
+-- langsam:
+
+SELECT REVERSE('Wolfgang Amadeus Mozart') -- trazoM suedamA gnagfloW
+
+SELECT CHARINDEX(' ', 'trazoM suedamA gnagfloW') -- 7
+
+SELECT LEN('Wolfgang Amadeus Mozart') -- 23
+
+-- 23 - 7 = 16
+-- 16 + 1 = Stelle, wo sich das letzte Leerzeichen befindet
+
+
+SELECT LEN('Wolfgang Amadeus Mozart') - CHARINDEX(' ', 'trazoM suedamA gnagfloW') + 1
+
+SELECT LEN('Wolfgang Amadeus Mozart') - CHARINDEX(' ', REVERSE('Wolfgang Amadeus Mozart')) + 1 -- 17
+
+
+SELECT LEN('Johann Sebastian Bach') - CHARINDEX(' ', REVERSE('Johann Sebastian Bach')) + 1
+
+
+SELECT LEN('Georg Friedrich H‰ndel') - CHARINDEX(' ', REVERSE('Georg Friedrich H‰ndel')) + 1 -- 16
+
+
+SELECT	  CompanyName
+		, LEN(CompanyName) - CHARINDEX(' ', REVERSE(CompanyName)) + 1
+FROM Customers

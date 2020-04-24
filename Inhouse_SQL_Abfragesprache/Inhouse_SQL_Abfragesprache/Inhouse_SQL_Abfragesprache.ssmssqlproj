@@ -3,6 +3,18 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
+        <ConnectionNode Name="WINDOWS10-LH2\SQL2019DEVELOPER:DOM-PPA01\lh2">
+          <Created>2020-04-24T08:59:31.0646822+02:00</Created>
+          <Type>SQL</Type>
+          <Server>WINDOWS10-LH2\SQL2019DEVELOPER</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
         <ConnectionNode Name="WINDOWS10-LH2\SQLEXPRESS:DOM-PPA01\lh2">
           <Created>2020-04-20T10:07:55.5616289+02:00</Created>
           <Type>SQL</Type>
@@ -42,6 +54,144 @@
           <AssociatedConnSrvName>WINDOWS10-LH2\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>004_Serverfunktionen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="005_WHERE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WINDOWS10-LH2\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WINDOWS10-LH2\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>005_WHERE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="006_LIKE_und_Wildcards.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WINDOWS10-LH2\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WINDOWS10-LH2\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>006_LIKE_und_Wildcards.sql</FullPath>
+        </FileNode>
+        <FileNode Name="007_JOINS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WINDOWS10-LH2\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WINDOWS10-LH2\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>007_JOINS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="008_Datumsfunktionen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WINDOWS10-LH2\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WINDOWS10-LH2\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>008_Datumsfunktionen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="009_CAST_CONVERT_FORMAT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WINDOWS10-LH2\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WINDOWS10-LH2\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>009_CAST_CONVERT_FORMAT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="010_DISTINCT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WINDOWS10-LH2\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WINDOWS10-LH2\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>010_DISTINCT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="011_TOP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WINDOWS10-LH2\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WINDOWS10-LH2\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>011_TOP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="012_temporäre_Tabellen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WINDOWS10-LH2\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WINDOWS10-LH2\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>012_temporäre_Tabellen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="013_VIEW.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WINDOWS10-LH2\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WINDOWS10-LH2\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>013_VIEW.sql</FullPath>
+        </FileNode>
+        <FileNode Name="014_Procedure.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WINDOWS10-LH2\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WINDOWS10-LH2\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>014_Procedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_Variablen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WINDOWS10-LH2\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WINDOWS10-LH2\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_Variablen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="016_SET_Operatoren.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WINDOWS10-LH2\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WINDOWS10-LH2\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>016_SET_Operatoren.sql</FullPath>
+        </FileNode>
+        <FileNode Name="017_Aggregatfunktionen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WINDOWS10-LH2\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WINDOWS10-LH2\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>017_Aggregatfunktionen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="018_Subquery.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WINDOWS10-LH2\SQL2019DEVELOPER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WINDOWS10-LH2\SQL2019DEVELOPER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>018_Subquery.sql</FullPath>
+        </FileNode>
+        <FileNode Name="019_CREATE_INSERT_UPDATE_DELETE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WINDOWS10-LH2\SQL2019DEVELOPER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WINDOWS10-LH2\SQL2019DEVELOPER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>019_CREATE_INSERT_UPDATE_DELETE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="020_Indizes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WINDOWS10-LH2\SQL2019DEVELOPER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WINDOWS10-LH2\SQL2019DEVELOPER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>020_Indizes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="021_MAXDOP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WINDOWS10-LH2\SQL2019DEVELOPER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WINDOWS10-LH2\SQL2019DEVELOPER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>021_MAXDOP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Datentypen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WINDOWS10-LH2\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WINDOWS10-LH2\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Datentypen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="NULL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WINDOWS10-LH2\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WINDOWS10-LH2\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>NULL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WH1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WINDOWS10-LH2\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WINDOWS10-LH2\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>WH1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WH2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WINDOWS10-LH2\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WINDOWS10-LH2\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>WH2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WH3_Übungen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WINDOWS10-LH2\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WINDOWS10-LH2\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>WH3_Übungen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WH4_Übungen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WINDOWS10-LH2\SQL2019DEVELOPER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WINDOWS10-LH2\SQL2019DEVELOPER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>WH4_Übungen.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

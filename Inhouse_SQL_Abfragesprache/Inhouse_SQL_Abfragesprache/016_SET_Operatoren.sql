@@ -273,3 +273,15 @@ SELECT OrderID, MAX(Freight), 'höchster Wert' AS Wert
 FROM Orders
 GROUP BY OrderID
 -- faaaalsch! Wir bekommen jetzt 1660 Ergebnisse - einmal den niedrigsten und einmal den höchsten Wert "pro" Bestellung...
+
+
+-- mit Subquery geht es auch:
+SELECT *
+FROM (SELECT TOP 1 OrderID, Freight, 'niedrigster Wert' AS Wert
+		FROM Orders
+		ORDER BY Freight) n
+UNION
+SELECT *
+FROM (SELECT TOP 1 OrderID, Freight, 'höchster Wert' AS Wert
+		FROM Orders
+		ORDER BY Freight DESC) h

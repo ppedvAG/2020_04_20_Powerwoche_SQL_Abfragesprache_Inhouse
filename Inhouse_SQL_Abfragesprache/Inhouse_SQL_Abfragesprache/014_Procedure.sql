@@ -15,7 +15,7 @@ AS
 SELECT * FROM Customers WHERE City = @City
 
 
-EXEC pAllCustomers5 @City = 'Salzburg'
+EXEC pAllCustomers5 @City = 'Buenos Aires'
 
 
 
